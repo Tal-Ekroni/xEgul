@@ -1,5 +1,5 @@
 // import { Switch, Route } from "react-router-dom";
-import { Routes, Route } from 'react-router'
+import { Switch, Route } from 'react-router'
 import {AppHeader} from './cmps/AppHeader'
 
 import routes from "./routes";
@@ -8,15 +8,15 @@ export function App() {
     <div className="App main-container">
       <AppHeader/>
       <main>
-      <Routes>
+      <Switch>
         {routes.map((route) => (
           <Route
           key={route.path}
-          element={<route.component />}
+          exact component={route.component}
           path={route.path}
           />
           ))}
-      </Routes>
+      </Switch>
           </main>
     </div>
   );

@@ -2,7 +2,19 @@ export const utilService = {
     makeId,
     makeLorem,
     getRandomIntInclusive,
-    delay
+    delay,
+    makeBoard
+}
+function makeBoard(){
+    let board=[]
+    for(var i=0 ; i<3;i++){
+        board[i]=["x"]
+        for(var j=0 ; j<3;j++){
+        board[i][j]=["o"]
+        }   
+    }
+    console.log(board);
+    return board
 }
 
 function makeId(length = 6) {
