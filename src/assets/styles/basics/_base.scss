@@ -13,12 +13,12 @@ html {
     color: $clr2;
 }
 
-body {
-    font-size: rem(18px);
-    margin: 0;
-    max-width: 1024px;
-    margin: auto;
-}
+// body {
+//     font-size: rem(18px);
+//     margin: 0;
+//     max-width: 1060px;
+//     margin: auto;
+// }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: caveat;
@@ -27,17 +27,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-section, main, footer {
-    padding: 5px;
-}
+// section, main, footer {
+//     padding: 5px;
+// }
 
 img {
     width: 100%;
 }
 
-p {
-    margin: 0 0 1em;
-}
+// p {
+//     margin: 0 0 1em;
+// }
 
 a {
     text-decoration: none;
