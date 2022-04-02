@@ -1,3 +1,8 @@
 .appHeader{
-    background-color: adjust-hue($color: #dbc0c0, $degrees: 30);
+    padding-top: 20px;
+    font-family: monospace;
+    font-size: 24px;
+    h2{
+    font-family: monospace;
+    }
 }
